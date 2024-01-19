@@ -63,7 +63,7 @@ class Program
         }
         else
         {
-            Console.WriteLine(" There are " + sodaRemaining + " sodas remaining, no restock needed.");
+            Console.WriteLine("There are " + sodaRemaining + " sodas remaining, no restock needed.");
         }
         if (chipsRemaining <= chipsRestock)
         {
@@ -71,7 +71,7 @@ class Program
         }
         else
         {
-            Console.WriteLine(" There are " + chipsRemaining + " chips remaining, no restock needed.");
+            Console.WriteLine("There are " + chipsRemaining + " chips remaining, no restock needed.");
         }
         if (candyRemaining <= candyRestock)
         {
@@ -79,7 +79,7 @@ class Program
         }
         else
         {
-            Console.WriteLine(" There are " + candyRemaining + " candies remaining, no restock needed.");
+            Console.WriteLine("There are " + candyRemaining + " candies remaining, no restock needed.");
         }
     }
 }
