@@ -33,14 +33,14 @@ class Program
         int candyRemaining = candyStock - candySold;
 
         //Restock needed status print to user
-        if (sodaRemaining <=40) {
+        if (sodaRemaining <= sodaRestock) {
             Console.WriteLine("There are " + sodaRemaining + " sodas remaining, please restock.");
         }
         else
         {
             Console.WriteLine(" There are " + sodaRemaining + " sodas remaining, no restock needed.");
         }
-        if (chipsRemaining <= 20)
+        if (chipsRemaining <= chipsRestock)
         {
             Console.WriteLine("There are " + chipsRemaining + " chips remaining, please restock.");
         }
@@ -48,13 +48,13 @@ class Program
         {
             Console.WriteLine(" There are " + chipsRemaining + " chips remaining, no restock needed.");
         }
-        if (candyRemaining <= 40)
+        if (candyRemaining <= candy)
         {
-            Console.WriteLine("There are " + candyRemaining + " candy remaining, please restock.");
+            Console.WriteLine("There are " + candyRemaining + " candies remaining, please restock.");
         }
         else
         {
-            Console.WriteLine(" There are " + candyRemaining + " candys remaining, no restock needed.");
+            Console.WriteLine(" There are " + candyRemaining + " candies remaining, no restock needed.");
         }
     }
 }
